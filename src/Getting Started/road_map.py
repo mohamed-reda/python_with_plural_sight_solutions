@@ -63,4 +63,6 @@ def sum_of_list(l):
 
 
 count = sum(core) + sum(advanced) + sum(for_analysis) + sum(Interpreting) + sum(Web_Scraping)
-print(count / 5)
+print(sum(core))
+print(sum(advanced))
+print(count)

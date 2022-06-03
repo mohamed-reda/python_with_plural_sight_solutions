@@ -18,6 +18,19 @@
 
 import collections
 
+# def f():
+#     return 3, 4
+
+
+# first, second = f()
+# print(first)
+# (a, (b, (c, d), f)) = (1, (2, (3, 4), 5))
+f = ''.join(['1', '2'])
+print(f)
+f = 'unforgettable'.partition('forgett')
+print(f)
+# ('un', 'forgett', 'able')
+
 dict1 = {'day1': 'Mon', 'day2': 'Tue'}
 dict2 = {'day2': 'Wed', 'day1': 'Thu'}
 
@@ -26,6 +39,8 @@ res = collections.ChainMap(dict1, dict2)
 # Creating a single dictionary
 print(res.maps, '\n')
 
+# print(type(f()), '\n')
+print(type(res), '\n')
 print('Keys = {}'.format(list(res.keys())))
 print('Values = {}'.format(list(res.values())))
 print()

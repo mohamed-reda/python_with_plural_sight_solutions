@@ -10,6 +10,3 @@ print(dict)
 e = {}  # this is dict not map
 
 print(type(e))
-
-e = {}
-print(type(e))
