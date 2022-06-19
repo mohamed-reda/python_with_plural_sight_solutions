@@ -46,7 +46,15 @@
 # print(b[0])
 #############################################
 
-c = [1, 2]
+c = [1, 2, 4, 5, 6, 3]
+l = c[:]  # just a copy
+print(id(l) == id(c))  # False
+print(l == c)  # True
+
+del l[0]
+l.remove(3)
+print(l)
+
 print(c * 4)
 c = [[1, 2]] * 4
 print(c)
